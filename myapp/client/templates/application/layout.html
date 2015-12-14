@@ -1,0 +1,24 @@
+<!--<template name="layout">
+	<div class="container">
+		<header class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">-->
+				<!--<a href="/" class="navbar-brand">myapp</a>
+				-->
+				<!--<a href="{{pathFor 'postsList'}}" class="navbar-brand">{{pageTitle}}</a>-->
+				<!--<a href="{{pathFor 'postsList'}}" class="navbar-brand">MyApp</a>
+			</div>
+		</header>
+		<div id="main" class="row-fluid">
+			{{> yield}}
+		</div>
+	</div>
+</template>-->
+
+<template name="layout">
+  <div class="container">
+    {{> header}}
+    <div id="main" class="row-fluid">
+      {{> yield}}
+    </div>
+  </div>
+</template>
